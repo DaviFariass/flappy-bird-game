@@ -1,7 +1,10 @@
-# Voa Passarinho! (Chroma Flap)
+# 🐦 Voa Passarinho! (Chroma Flap)
 
 Uma versão moderna, colorida e fluida do clássico Flappy Bird, construída inteiramente com **JavaScript puro (Vanilla)** e a API **HTML5 Canvas**. Sem engines externas ou imagens baixadas — tudo é renderizado via código!
 
+### [Clique aqui para jogar agora direto no navegador!](https://davifariass.github.io/flappy-bird-game/)
+
+---
 
 ## ✨ Funcionalidades (Features)
 
@@ -40,4 +43,5 @@ Como o projeto não utiliza dependências externas ou servidores complexos, rod�
 4. Divirta-se!
 
 ---
+
 *Criado com muita dedicação, código e café! ☕*
