@@ -2,7 +2,7 @@
 
 Uma versão moderna, colorida e fluida do clássico Flappy Bird, construída inteiramente com **JavaScript puro (Vanilla)** e a API **HTML5 Canvas**. Sem engines externas ou imagens baixadas — tudo é renderizado via código!
 
-### [Clique aqui para jogar agora direto no navegador!](https://davifariass.github.io/flappy-bird-game/)
+### [Clique aqui para jogar agora direto no navegador!]([https://davifariass.github.io/flappy-bird-game/bird-game/])
 
 ---
 
