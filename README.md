@@ -2,7 +2,6 @@
 
 Uma versão moderna, colorida e fluida do clássico Flappy Bird, construída inteiramente com **JavaScript puro (Vanilla)** e a API **HTML5 Canvas**. Sem engines externas ou imagens baixadas — tudo é renderizado via código!
 
-![Demonstração do Jogo](coloque-aqui-o-link-de-um-print-do-seu-jogo.png)
 
 ## ✨ Funcionalidades (Features)
 
