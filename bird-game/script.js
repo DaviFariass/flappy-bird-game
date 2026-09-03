@@ -136,9 +136,9 @@ const bird = {
 const pipes = {
     position: [],
     width: 55,
-    dx: 2.5,
+    dx: 4.2,
     pipesGenerated: 0,
-    framesSinceLastPipe: 300,
+    framesSinceLastPipe: 130,
     
     draw() {
         for (let i = 0; i < this.position.length; i++) {
@@ -167,18 +167,19 @@ const pipes = {
     update() {
         this.framesSinceLastPipe++;
 
-        let currentSpawnRate = 400;
-        if (this.pipesGenerated > 10) {
-            currentSpawnRate = Math.max(180, 400 - ((this.pipesGenerated - 10) * 20));
+        // Intervalo base reduzido de 400 para 130 frames (~2 segundos entre canos)
+        let currentSpawnRate = 130;
+        if (this.pipesGenerated > 5) {
+            currentSpawnRate = Math.max(85, 130 - ((this.pipesGenerated - 5) * 4));
         }
 
         if (this.framesSinceLastPipe >= currentSpawnRate) {
-            let currentGap = Math.max(140, 250 - (this.pipesGenerated * 10));
+            let currentGap = Math.max(130, 210 - (this.pipesGenerated * 6));
             let currentHue = (this.pipesGenerated * 25) % 360; 
             
             this.position.push({
                 x: canvas.width,
-                y: Math.random() * (canvas.height - currentGap - 100) + 50,
+                y: Math.random() * (canvas.height - currentGap - 120) + 60,
                 gap: currentGap,
                 color: `hsl(${currentHue}, 75%, 55%)`
             });
