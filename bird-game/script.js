@@ -57,9 +57,9 @@ const bird = {
     y: canvas.height / 2,
     width: 30,
     height: 30,
-    gravity: 0.32,
+    gravity: 0.36,
     velocity: 0,
-    jump: -5.1,
+    jump: -4.5,
     
     draw() { 
         ctx.save();
@@ -138,7 +138,7 @@ const pipes = {
     width: 55,
     dx: 2.5,
     pipesGenerated: 0,
-    framesSinceLastPipe: 400,
+    framesSinceLastPipe: 300,
     
     draw() {
         for (let i = 0; i < this.position.length; i++) {
