@@ -57,9 +57,9 @@ const bird = {
     y: canvas.height / 2,
     width: 30,
     height: 30,
-    gravity: 0.28,
+    gravity: 0.32,
     velocity: 0,
-    jump: -5.5,
+    jump: -5.1,
     
     draw() { 
         ctx.save();
